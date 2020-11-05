@@ -1,0 +1,10 @@
+[
+     {
+    "VideoSrc":"http://www.youtube.com/embed/iYM2zFP3Zn0",
+    "descrption":"In this video we will talk about HTTP and what it is, the request/response cycle, status codes, header/body and more. We will use Postman/Express.js to give examples"
+    },
+    {
+        "VideoSrc":"http://www.youtube.com/embed/DUg2SWWK18I",
+        "descrption":"MVC is the most popular architecture for building complex web servers.  In this video I will cover what MVC is, how it works, and why you should use it."
+        }
+]

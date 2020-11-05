@@ -1,0 +1,39 @@
+/* @media (max-width: 650px) {
+    .nav-menu {
+      display: none;
+      transform: 0.9s;
+    }
+    .mediaQuery-navbar {
+      display: inline;
+    }
+    .project-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+  } */
+  @media (max-width: 290px) {
+body{
+  margin: 0;
+  /* max-width: 100%; */
+  object-fit: contain;
+  margin: auto auto;
+    max-width: 1900px;
+}
+.navbar{
+    width: 270px;
+}
+.nav_menu_list a{
+    color: brown;
+}
+
+  }
+  /* @media (min-width: 650px) {
+    .mediaQuery-navbar {
+      display: none;
+    }
+  } */
+  
+  

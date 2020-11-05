@@ -1,0 +1,17 @@
+[ 
+{
+    "title":"Web Development intro",
+    "descrption":"Understand HTTP, MVC architecture  and how data is passed in a web application.",
+    "link":"/pages/intro.html"
+},
+{
+    "title":"Express JavaScript",
+    "descrption":"Learn the way the server works in the MVC architecture in running a web application.",
+    "link":"/pages/express.html"
+},
+{
+    "title":"Data base",
+    "descrption":"Understand how data is store and manupilate it using MongoDB",
+    "link":"/pages/dataBase.html"
+}
+]

@@ -1,0 +1,252 @@
+@import url("./mediaQuery.css");
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap");
+
+li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+.page{
+    margin: auto auto;
+    max-width: 1900px;
+}
+.logo {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+   
+  }
+  .logo a {
+    font-weight: bold;
+    font-size: 1.7rem;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 5px;
+    /* background-color: whitesmoke; */
+    color:#094C59;
+    font-family: arial;
+    /* letter-spacing: 5px; */
+  }
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+  }
+  .nav_menu_group{
+    display: flex;
+    margin: 10px;
+  }
+  .nav_menu_list{
+      /* font-weight: 500; */
+    color:#73726C;
+    margin-right: 3rem;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+  .nav_menu_list a{
+    font-weight:bold;
+  color:#73726C;
+}
+.nav_menu_list a:hover{
+  color:#094C59;
+}
+.nav_menu_list a:active{
+    color:#ECF0F1;
+  }
+/* HERO */
+header {
+    /* position: absolute; */
+      font-family: "Raleway", sans-serif;
+      height: 80vh;
+      background: url("../imgs/learn3.jpg") no-repeat center center / cover;
+    }
+.welcome_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 0 3rem;
+    object-fit: contain;
+  }
+  .welcome_section_heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+    
+  }
+  .welcome_section_introduction{
+    font-size: 1rem;
+    color:#73726C;
+
+    /* border-bottom: 1px solid; */
+  }
+
+  /* Tutorials */
+  .tutorials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 0 1rem 0 ;
+    margin: 0;
+  }
+
+  .tutorials h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-color: #094C59;
+      width: 100%;
+      text-align: center;
+      color: whitesmoke;
+      height: 4rem;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  .tutorials_group{
+    /* margin-top: 1rem;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .tutorials_detail_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .tutorial_tile {
+      /* border: 1px solid black; */
+    overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* object-fit: contain; */
+    padding: 10px;
+    margin: 5px;
+    max-width: 26rem;
+    height: 15rem;
+    box-shadow: 1px 1px 5px 1px #3C3B37;
+    /* box-shadow: ; */
+  }
+  /* .tutorial_tile_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+  .tutorial_tile_title{
+      text-align: center;
+      /* color: whitesmoke; */
+      letter-spacing: 2px;
+      /* font-weight: bold; */
+      font-size: 2rem;
+      /* border: 1px solid black; */
+        height: 1px;
+        /* color: #3C3B37; */
+        color: #576574;
+  }
+  .project_info{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color:#ecf0f1;
+    height: 40%;
+    /* border: 1px solid black; */
+    color: #73726C;
+    margin: 0;
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tutorial_tile_bgcolor{
+      background-color: black;
+      padding: 10px;
+      color: #F5F5F5;
+      width: 100%;
+      height: 100%;
+  }
+  .project_video{
+    width: 100%;
+  }
+  .project_video_frame{
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+    margin: 0;
+  }
+  .project_desc{
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  hr{
+      width: 100%;
+  }
+  .button{
+    border: 1px solid#BDC6CB;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color:#094C59;
+    color: aliceblue;
+  }
+  .button:hover{
+    border: 1px solid  aliceblue;
+    background-color:aliceblue;
+    color: #094C59;
+  }
+  .button:active{
+    border: 1px solid  aliceblue;
+    background-color:aliceblue;
+    color: #73726C;
+  }
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #094C59;
+  color: #F0F8F7;
+  }
+  .footer a {
+    color: #F0F8F7;
+  }
+  
+  .footer span{
+    margin-bottom: 30px;
+  }
+  .footer_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

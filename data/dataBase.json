@@ -1,0 +1,18 @@
+[
+    {
+   "VideoSrc":"http://www.youtube.com/embed/-56x56UppqQ",
+   "descrption":"In this video we will go over MongoDB, which is a popular NoSQL database that is commonly used with Node.js and other technologies."
+   },
+   {
+       "VideoSrc":"http://www.youtube.com/embed/PoRJizFvM7s",
+       "descrption":"In this crash course we will look at asynchronous JavaScript and cover callbacks, promises including promise.all as well as the async / await syntax."
+       },
+       {
+        "VideoSrc":"http://www.youtube.com/embed/leNCfU5SYR8",
+        "descrption":"You will learn common methodologies and vocabulary you can use when designing your database schema on your application."
+        },
+        {
+            "VideoSrc":"http://www.youtube.com/embed/qjKQzfmcRSM",
+            "descrption":"Have a practical example on implementing a mongo schema and Model"
+            }
+]

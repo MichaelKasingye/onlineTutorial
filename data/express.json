@@ -1,0 +1,10 @@
+[
+    {
+   "VideoSrc":"http://www.youtube.com/embed/L72fhGm1tfE",
+   "descrption":"In this crash course we will dive into the Express JS framework for Node.js."
+   },
+   {
+       "VideoSrc":"http://www.youtube.com/embed/PoRJizFvM7s",
+       "descrption":"In this crash course we will look at asynchronous JavaScript and cover callbacks, promises including promise.all as well as the async / await syntax."
+       }
+]
